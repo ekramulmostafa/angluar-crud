@@ -1,0 +1,9 @@
+<table ng-if="orderList.length > 0">
+    <tr ng-repeat="item in orderList">
+        <td>{{item.title}}</td>
+        <td>{{item.description}}</td>
+        <td><a ng-click="selectOrder(item ,orderList.indexOf(item))">Select for edit</a> &nbsp; <a ng-click="orderDeleted(orderList.indexOf(item))">Delete</a></td>
+    </tr>
+</table>
+
+<span ng-if="orderList.length == 0">Empty order!!!</span>

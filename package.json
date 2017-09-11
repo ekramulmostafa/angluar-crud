@@ -1,0 +1,11 @@
+{
+  "name": "angular-crud",
+  "version": "1.0.0",
+  "description": "Angular JS 1.5.8 Crud Apllication",
+  "main": "./src/js/app/app.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
